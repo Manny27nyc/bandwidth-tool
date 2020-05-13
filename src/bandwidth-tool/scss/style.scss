@@ -507,4 +507,12 @@ $header: #0071fe;
       }
     }
   }
+
+  .footer {
+    a {
+      &[href="#top"] {
+        display: none;
+      }
+    }
+  }
 }
