@@ -69,8 +69,6 @@ limitations under the License.
             </div>
         </div>
 
-        <FAQs></FAQs>
-
         <Footer :text="i18n.templates.app.oss"></Footer>
     </div>
 </template>
@@ -88,7 +86,6 @@ limitations under the License.
     const ActiveDroplet = require('./droplets/active_droplet');
     const SkeletonDroplet = require('./droplets/skeleton_droplet');
     const Picker = require('./picker');
-    const FAQs = require('./faqs');
 
     // Build the Droplet data
     const droplets = {};
@@ -110,7 +107,6 @@ limitations under the License.
             ActiveDroplet,
             SkeletonDroplet,
             Picker,
-            FAQs,
         },
         data() {
             return {
